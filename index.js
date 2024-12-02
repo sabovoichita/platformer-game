@@ -31,5 +31,7 @@ class Player {
     ctx.fillStyle = "#99c9ff"; //player colour
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-  update() {}
+  update() {
+    this.draw();
+  }
 }
