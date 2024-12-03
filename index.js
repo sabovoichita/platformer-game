@@ -72,7 +72,9 @@ class Platform {
 }
 
 class CheckPoint {
-  constructor(x, y, z) {}
+  constructor(x, y, z) {
+    this.position = { x, y };
+  }
 }
 
 const player = new Player();
