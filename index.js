@@ -105,6 +105,9 @@ const animate = () => {
     player.velocity.x = 0;
   }
 
+  if (keys.rightKey.pressed && isCheckpointCollisionDetectionActive) {
+  }
+
   const keys = {
     rightKey: { pressed: false },
     leftKey: { pressed: false },
