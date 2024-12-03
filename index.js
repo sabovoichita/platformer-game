@@ -76,7 +76,10 @@ const animate = () => {
   };
 };
 
-const movePlayer = (key, xVelocity, isPressed) => {};
+const movePlayer = (key, xVelocity, isPressed) => {
+  if (!isCheckpointCollisionDetectionActive) {
+  }
+};
 
 const startGame = () => {
   canvas.style.display = "block";
